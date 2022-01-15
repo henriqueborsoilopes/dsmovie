@@ -4,10 +4,10 @@ import { useParams } from 'react-router-dom';
 
 function Form() {
 
-    const parans = useParams();
+    const params = useParams();
 
     return (
-        <FormCard movieId={`${parans.moviedId}`} />
+        <FormCard movieId={`${params.movieId}`} />
     );
 }
 
