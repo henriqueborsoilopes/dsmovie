@@ -1,6 +1,6 @@
-import starFull from '../../assets/img/star-full.svg';
-import starHalf from '../../assets/img/star-half.svg';
-import starEmpty from '../../assets/img/star-empty.svg';
+import starFull from '../../asset/img/star-full.svg';
+import starHalf from '../../asset/img/star-half.svg';
+import starEmpty from '../../asset/img/star-empty.svg';
 import './MovieStars.css';
 
 export const MovieStars = () => {

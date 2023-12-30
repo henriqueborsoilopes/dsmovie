@@ -1,5 +1,5 @@
 import './Pagination.css';
-import arrow from '../../assets/img/arrow.svg';
+import arrow from '../../asset/img/arrow.svg';
 
 export const Pagination = () => {
   return (
