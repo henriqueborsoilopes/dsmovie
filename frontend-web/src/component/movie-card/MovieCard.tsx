@@ -1,16 +1,12 @@
 import { Link } from 'react-router-dom';
 import { MovieScore } from '..';
+import { Movie } from '../../model/Movie';
 
-export const MovieCard = () => {
-  const movie = {
-    id: 1,
-    image:
-      'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg',
-    title: 'The Witcher',
-    count: 2,
-    score: 4.5,
-  };
+interface Props {
+  movie: Movie;
+}
 
+export const MovieCard = ({ movie }: Props) => {
   return (
     <div>
       <img
