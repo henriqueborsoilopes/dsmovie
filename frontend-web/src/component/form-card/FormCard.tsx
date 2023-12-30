@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './FormCard.css';
 
 export const FormCard = () => {
@@ -40,7 +41,9 @@ export const FormCard = () => {
             </button>
           </div>
         </form>
-        <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+        <Link to={'/'}>
+          <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+        </Link>
       </div>
     </div>
   );
